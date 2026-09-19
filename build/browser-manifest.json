@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "source": "https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json",
+  "channel": "Stable",
+  "version": "153.0.8010.52",
+  "revision": "1681091",
+  "platform": "win64",
+  "verified_on": "2026-09-19",
+  "artifacts": {
+    "chrome": {
+      "url": "https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.52/win64/chrome-win64.zip",
+      "archive_name": "chrome-win64-153.0.8010.52.zip",
+      "size_bytes": 205149043,
+      "sha256": "df4854428c509fcf2f790ac448bca3f994151bcff22008236fa7c4587294fbe1",
+      "extract_directory": "chrome-win64",
+      "executable": "chrome-win64/chrome.exe"
+    },
+    "chromedriver": {
+      "url": "https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.52/win64/chromedriver-win64.zip",
+      "archive_name": "chromedriver-win64-153.0.8010.52.zip",
+      "size_bytes": 11485021,
+      "sha256": "cadc8582e8f3166040654f19c9cbc396a948990980f38dbff16522993efdf4bf",
+      "extract_directory": "chromedriver-win64",
+      "executable": "chromedriver-win64/chromedriver.exe"
+    }
+  }
+}
