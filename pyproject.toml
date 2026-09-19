@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=75,<82"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nt-medical-visa-appointment-monitor"
+version = "0.1.0"
+description = "Windows desktop monitor for NT medical visa appointment availability"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "selenium>=4.25,<5",
+    "keyring>=25,<26",
+    "tzdata>=2025.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3,<10",
+    "pytest-cov>=6,<8",
+    "pyinstaller>=6.11,<7",
+]
+
+[project.scripts]
+bupa-appointment-monitor = "nt_medical_visa_appointment.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = ["-ra", "--strict-markers"]
