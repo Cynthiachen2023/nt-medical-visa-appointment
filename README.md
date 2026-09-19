@@ -1,6 +1,7 @@
 # NT Medical Visa Appointment Monitor
 
-**[下载 Windows 版 v0.1.0](https://github.com/Cynthiachen2023/nt-medical-visa-appointment/releases/tag/v0.1.0)** · **[查看 Wiki 用户使用指南](https://github.com/Cynthiachen2023/nt-medical-visa-appointment/wiki/%E7%94%A8%E6%88%B7%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97)**
+**[下载 Windows 版 v0.1.0](https://github.com/Cynthiachen2023/nt-medical-visa-appointment/releases/tag/v0.1.0)**
+**[查看用户使用指南](https://github.com/Cynthiachen2023/nt-medical-visa-appointment/wiki/%E7%94%A8%E6%88%B7%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97)**
 
 一个面向 Windows 的 Bupa Medical Visa Services 预约监控工具。程序使用
 Selenium 定时检查 Jobfit Darwin 是否出现可预约日期，并通过电子邮件提醒用户。
